@@ -79,8 +79,44 @@ message.reply("ЭЭЭ выбурил гм быстро.");
 });
 //
 client.on("message", (message) => {
+if(message.content == (prefix + "-скобка")){
+message.reply("НЕПОНЯЛ ЭТО КААААК????");
+}
+});
+//
+client.on("message", (message) => {
 if(message.content == (prefix + "/god")){
 message.reply("ЭЭЭ выбурил год быстро.");
+}
+});
+//
+client.on("message", (message) => {
+if(message.content == (prefix + "/fly")){
+message.reply("ЭЭЭ выбурил флай быстро.");
+}
+});
+//
+client.on("message", (message) => {
+if(message.content == (prefix + "ВаймВорлд")){
+message.reply("Фууу как можно на этой помойке играть?");
+}
+});
+//
+client.on("message", (message) => {
+if(message.content == (prefix + "Майнблейз")){
+message.reply("Фууу это говно жрать.");
+}
+});
+//
+client.on("message", (message) => {
+if(message.content == (prefix + "Скобка читер")){
+message.reply("Я не жру говно как некоторые");
+}
+});
+//
+client.on("message", (message) => {
+if(message.content == (prefix + "Скобка")){
+message.reply("Чего тебе.");
 }
 });
 //
